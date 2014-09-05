@@ -13,8 +13,9 @@ image:
   creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 comments: false
 mathjax: null
-featured: true
+featured: false
 published: true
+author: siawyoung
 ---
 
 >&quot;The beginning is the most important part of the work.&quot;

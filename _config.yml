@@ -5,7 +5,7 @@ disqus_shortname: hmfaysal
 # Assign a default image for your site's header and footer
 default_bg:       GLPPortraits-2.jpg
 search:           false
-share:            false
+share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
 # Specify the average Words per minute. If not defined, 180 will be used
@@ -21,6 +21,14 @@ fin_color:        "255,255,255"
 baseurl:       		http://glp2014.com/glp2014
 
 # Owner/author information
+
+authors:
+  siawyoung:
+    name: Siaw Young
+    fullname: Lau Siaw Young
+    email: lausiawyoung@gmail.com
+    description: Siaw Young is a nice person.
+
 owner:
   name:           Hossain Mohd Faysal
   avatar:         hmfaysal.jpg
@@ -58,8 +66,6 @@ links:
     url: /categories
   - title: Tags
     url: /tags
-  - title: Faysal who?
-    url: /hossain-mohd-faysal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

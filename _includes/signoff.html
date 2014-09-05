@@ -1,5 +1,7 @@
+{% assign author = site.authors[page.author] %}
+
 <div class="post-author text-center">                       
 	        <img src="{{site.url}}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>    
-	    <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></h4>
-	    <p>{{ site.owner.description }}</p>
+	    <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="{{ site.baseurl }}/{{ page.author }}" title="About {{ author.name }}" itemprop="url">{{ author.name }}</a></span></h4>
+	    <p>{{ author.description }}</p>
 </div>
